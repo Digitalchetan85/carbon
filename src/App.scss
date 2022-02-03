@@ -1,0 +1,66 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+  "primary": #335F9B,
+  "secondary": #DA161B,
+  "dark": #000000,
+  "success": #198754,
+  "info": #E3D39F,
+  "warning": #6C757D,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+);
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary-color: #335F9B;
+$secondary-color: #ffc800;
+$white-color: white;
+$black-color: #000;
+$tertiary-color: #9D9E9E;
+$dark-color: #001524;
+
+p {
+  text-align: justify;
+}
+
+#navbar {
+  .nav-link {
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+    color: $white-color;
+  }
+}
+
+#testimonials {
+  .carousel-control-prev, .carousel-control-next {
+    display: none;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+#m-v {
+  .custom {
+    height: 390px !important;
+  }
+}
+
+#exp {
+  .card-body {
+    height: 180px !important;
+  }
+}
+
+#footer {
+  a {
+      color: $white-color;
+      text-decoration: none;
+      &:hover {
+          color: $primary-color;
+      }
+  }
+}
