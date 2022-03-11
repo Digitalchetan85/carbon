@@ -1,8 +1,7 @@
 import React from "react";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import MainSlider from "../Includes/MainSlider";
 import AboutBanner from "../../Images/about.png";
-import { Link } from "react-router-dom";
 import HomeServices from "../Includes/HomeServices";
 import Expertise from "../Includes/Expertise";
 import Testimonials from "../Includes/Testimonials";
