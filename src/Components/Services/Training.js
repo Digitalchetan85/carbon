@@ -310,10 +310,11 @@ const Training = () => {
           </Row>
         </Container>
       </div>
-      <div className="pt-3 pb-3 pt-md-5 pb-md-5">
+
+      <div id="policies" className="pt-3 pb-3 pt-md-3 pb-md-3">
         <Container>
           <Row className="justify-content-center">
-            <Col md={12}>
+            <Col md={12} className="align-self-center">
               <h3 className="text-primary">POLICIES</h3>
               <p>
                 CBSS Security employs motivated, focused security guards who are
@@ -372,10 +373,14 @@ const Training = () => {
           </Row>
         </Container>
       </div>
-      <div className="pt-3 pb-3 pt-md-5 pb-md-5">
+
+      <div id="staff training" className="pt-3 pb-3 pt-md-3 pb-md-3 bg-light">
         <Container>
           <Row className="justify-content-center">
-            <Col md={12}>
+            <h3 className="text-primary py-3 text-center">
+              Staff Training & Development{" "}
+            </h3>
+            <Col md={12} className="align-self-center">
               <Image className="img-fluid" src={Site2} alt="" />
               <p>
                 CBSS Security is conscious of the high degree of accountability
@@ -389,6 +394,11 @@ const Training = () => {
               <Image className="img-fluid" src={Site3} alt="" />
             </Col>
           </Row>
+        </Container>
+      </div>
+
+      <div id="performance" className="pt-3 pb-3 pt-md-5 pb-md-3">
+        <Container>
           <Row className="justify-content-center">
             <Col md={12}>
               <h3 className="text-primary">Performance Monitoring</h3>
@@ -411,7 +421,20 @@ const Training = () => {
                 dangerous situations and referring matters to police and
                 authorities.
               </p>
-              <h3 className="text-primary">Building Management</h3>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div
+        id="building management"
+        className="pt-3 pb-3 pt-md-3 pb-md-3 bg-light"
+      >
+        <Container>
+          <Row className="justify-content-center">
+            <Col md={12}>
+              <h3 className="text-primary py-3 text-center">
+                Building Management
+              </h3>
               <p>
                 The building subsystems are critically managed under 24/7
                 supervision of skilled personnel. CBSS has been providing an
