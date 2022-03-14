@@ -87,13 +87,13 @@ const FacilityManagement = () => {
                 diamond merchants, airlines, etc. to escort individuals or
                 cargos between destinations.
               </p>
-              <Col md={4}>
+              <Col md={4} className="align-self-center">
                 <Image className="img-fluid" src={Escort1} alt="" />
               </Col>
-              <Col md={4}>
+              <Col md={4} className="align-self-center">
                 <Image className="img-fluid" src={Escort2} alt="" />
               </Col>
-              <Col md={4}>
+              <Col md={4} className="align-self-center">
                 <Image className="img-fluid" src={Escort3} alt="" />
               </Col>
             </Row>
@@ -123,7 +123,7 @@ const FacilityManagement = () => {
             <hr />
             <Row>
               <h4 className="text-primary">DOG SQUAD WITH HANDLER</h4>
-              <Col md={6}>
+              <Col md={8}>
                 <p>
                   Our Dog Squad comprises highly pedigreed and trained German
                   Shepherds, Doberman, Pinschers and Labradors along with
@@ -135,7 +135,7 @@ const FacilityManagement = () => {
                   as also for personal property protection.
                 </p>
               </Col>
-              <Col md={6}>
+              <Col md={4} className="align-self-center">
                 <Image className="img-fluid" src={Dog1} alt="" />
               </Col>
             </Row>
@@ -146,7 +146,7 @@ const FacilityManagement = () => {
                 FIRE SAFETY & FIRE MARSHALL:
               </h4>
 
-              <Col md={6}>
+              <Col md={6} className="align-self-center">
                 <Image className="img-fluid" src={Marshall1} alt="" />
                 <Image className="img-fluid" src={Marshall2} alt="" />
               </Col>
@@ -173,7 +173,7 @@ const FacilityManagement = () => {
             <hr />
             <Row>
               <h4 className="text-primary">BPO / KPO / IT SECURITY</h4>
-              <Col md={6}>
+              <Col md={7}>
                 <p>
                   Secure premises and personnel by patrolling property;
                   monitoring surveillance equipment; inspecting buildings,
@@ -185,7 +185,7 @@ const FacilityManagement = () => {
                   industry-specific experience, knowledge and technology skills.
                 </p>
               </Col>
-              <Col md={6}>
+              <Col md={5} className="align-self-center">
                 <Image className="img-fluid" src={Bpo} alt="" />
               </Col>
             </Row>
@@ -194,7 +194,7 @@ const FacilityManagement = () => {
             <Row>
               <h4 className="text-primary text-end">CAMPUS SECURITY</h4>
 
-              <Col md={6}>
+              <Col md={6} className="align-self-center" >
                 <Image className="img-fluid" src={Marshall1} alt="" />
                 <Image className="img-fluid" src={Marshall2} alt="" />
               </Col>
@@ -236,7 +236,7 @@ const FacilityManagement = () => {
                   like computers, close circuit cameras and others.
                 </p>
               </Col>
-              <Col md={6}>
+              <Col md={6} className="align-self-center">
                 <Image className="img-fluid" src={Bank1} alt="" />
                 <Image className="img-fluid" src={Bank2} alt="" />
               </Col>
@@ -248,7 +248,7 @@ const FacilityManagement = () => {
                 EVENT SECURITY MANAGEMENT
               </h4>
 
-              <Col md={8}>
+              <Col md={8} className="align-self-center">
                 <Image className="img-fluid" src={Event1} alt="" />
                 <Image className="img-fluid" src={Event2} alt="" />
                 <Image className="img-fluid" src={Event3} alt="" />
@@ -286,7 +286,7 @@ const FacilityManagement = () => {
                 existing security instruments like computers, close circuit
                 cameras and others.
               </p>
-              <Col md={4}>
+              <Col md={4} className="align-self-center">
                 <Image className="img-fluid" src={Log1} alt="" />
               </Col>
 

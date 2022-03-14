@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import Slide1 from "../../Images/about.png";
 
 const About = () => {

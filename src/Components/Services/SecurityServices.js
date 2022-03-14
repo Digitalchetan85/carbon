@@ -26,277 +26,290 @@ const SecurityServices = () => {
         </Container>
       </div>
       <div id="services" className="pt-3 pb-3 pt-md-5 pb-md-5">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md={8}>
-              <h3 className="text-primary">1 OFFICE & COMMERCIAL BUILDING</h3>
-              <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
-                <strong>How important is Security guards?</strong>
-              </h5>
-              <p>
-                At CBSS Security, we work with local law enforcement and
-                facility managers to establish a Security Plan to meet all the
-                various needs of the specific business building. We are
-                committed to the vigilant security of these facilities in all
-                its areas.
-              </p>
-              <p>
-                Through combining advanced technologies with world-class
-                experience to minimize risks, we optimize defense performance
-                and reliability through our innovative approach to full security
-                solutions for commercial buildings. Our commitment to our
-                clients enables us to build lasting relationships with our
-                clients that allow our clients to focus on their business while
-                focusing on ours, which ensures the security of their customers,
-                employees and property.
-              </p>
-              <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
-                <strong>Why choose CBSS Security Services?</strong>
-              </h5>
-              <p>
-                The highly trained workforce and access control programs
-                maintain a sense of safety as customers and employees visit the
-                workplace. Safety CBSS Security delivers 24-hour video control
-                with the most modern security systems and professionally trained
-                and experienced management services.
-              </p>
-              <p>
-                The new advances in the fields of access control, GPS tracking
-                and camera technology ensure optimum reliability and
-                transparency.
-              </p>
-              <p>
-                CBSS Security force for commercial and office buildings include
-                the following, among many:
-              </p>
-              <ul>
-                <li>CCTV</li>
-                <li>Remote monitoring</li>
-                <li>
-                  Managing potential issues with terminated and/or disgruntled
-                  employees
-                </li>
-                <li>
-                  Specifically, optimized programs for day and night
-                  surveillance
-                </li>
-                <li>Employee identification (ID) systems</li>
-                <li>Perimeter and vertical checks</li>
-                <li>Risk assessment survey</li>
-                <li>Safety seminars for their employees</li>
-                <li>Fire guards and Fire safety directors (FSD)</li>
-                <li>Access control systems with or without biometrics</li>
-                <li>24/7 Emergency response</li>
-                <li>Coverage for strike or civil unrest</li>
-              </ul>
-              <p>
-                <strong>
-                  Our top professional security guards protect from such victim
-                </strong>
-              </p>
-            </Col>
-            <Col md={4}>
-              <Image className="img-fluid" src={Official} alt="" />
-            </Col>
-          </Row>
-        </Container>
-        <hr />
-        <Container>
-          <Row className="justify-content-center">
-            <Col md={4} className="text-center">
-              <Image className="img-fluid" src={Manufacture} alt="" />
-            </Col>
-            <Col md={8}>
-              <h3 className="text-primary">
-                2 MANUFACTURING & INDUSTRIAL SECURITY{" "}
-              </h3>
-              <p>
-                CARBON BLACK Security has extensive experience with retail and
-                warehousing systems in resolving security threats. We also have
-                expertise in helping our clients meet their compliance and other
-                regulatory responsibilities. Our administration will perform
-                security audits with your loss prevention team to determine the
-                specific internal and external risks of your plant.
-              </p>
-              <p>
-                For factories and processing facilities,{" "}
-                <strong>security guards for industries </strong> are needed.
-                Industrial workers may be uncovered, endangered and other risks
-                of safety. Continuous and comprehensive monitoring of the
-                production facility and network are essential elements of plant
-                safety. Industrial buildings and plants are usually large, busy,
-                crowded environments. Security threats are not unusual in and
-                around industrial and physical plants, whether factory, mill,
-                refinery, packing house or manufacturing facility.{" "}
-              </p>
-              {/* <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
-                <strong>Why choose CBSS Security Services?</strong>
-              </h5> */}
-              <p>
-                Each daily and routine security guard duty for industrial plants
-                is important in order to maintain a well-functioning and
-                risk-free building. We have a highly trained, licensed office
-                and the best in security technology in our integrated solutions
-                for addressing your safety needs, including loss prevention and
-                control. Our solutions may be used in addition to our qualified
-                professionals
-              </p>
-              <ul>
-                <li>
-                  CCTV with 24/7 or motion activated feed, local or remote
-                  monitoring
-                </li>
-                <li>Daily reports of plant safety conditions</li>
-                <li>
-                  Surveillance of all vehicles and people who have access to the
-                  property
-                </li>
-                <li>Various patterns of patrol to avoid routines</li>
-                <li>Regular staircase and lift monitoring</li>
-                <li>
-                  Access for all en Access may include the operation of:
-                  doorways, gates, and docks
-                </li>
-                <li>Perimeter surveillance</li>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
-        <hr />
-        <Container>
-          <Row className="justify-content-center">
-            <Col md={8}>
-              <h3 className="text-primary">3 RESIDENTIAL BUILDING SECURITY</h3>
-              <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
-                <strong>How important is Security guards?</strong>
-              </h5>
-              <p>
-                We use the optimal combination of workforce and technology to
-                meet the particular concerns of the home communities and to
-                create optimum solutions for residential security. One of the
-                main advantages of{" "}
-                <strong>
-                  residential or private security guards for property
-                </strong>{" "}
-                is that insurance rates will probably be lower when preventive
-                measures are in place 24 hours a day
-              </p>
-              <p>
-                You will take other things into account when you have decided
-                that your building needs <strong>24-hrs security guards</strong>
-                . You’re going to have guards who supervise themselves for work
-                day parts and absolutely at the weekends and on holidays when
-                you put 24hrs security on your premises.
-              </p>
-              <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
-                <strong>
-                  Why choose Carbon Black for Residential building Security
-                  services?
-                </strong>
-              </h5>
-              <p>
-                Carbon Black provides highly customized security solutions with
-                the staff and resources of a large company, using the extensive
-                experience of our founding member to manage all activities.
-                Hands-on administration, trained authorities and the latest
-                technology combine in order to provide strategies specifically
-                designed for each building or neighborhood for public health.
-              </p>
-              <p>
-                We have an excellent record in partnering with local law
-                enforcement agencies and the integration of community police
-                services into the residential security solutions that we
-                provide. We are continuously monitoring security technology
-                improvements as well as changes in your building and community
-                to ensure that your building safety plan is effective in
-                securing your buildings continuously.
-              </p>
-              <p>
-                Carbon Black Security can provide remote monitoring for your
-                CCTV feed, using the new surveillance technology, highly
-                qualified personnel and professional management throughout the
-                whole clock. Our workers are tracked to ensure the highest
-                degree of transparency and precision with the current
-                developments in camera technology and GPS tracking.
-              </p>
-              <p>
-                Every applicant for security guards is screened carefully and we
-                have a proprietary training program with specialists in military
-                and legal systems. The consequence is the ability of trained
-                authorities to prevent and track life and property potential
-                threats through sophisticated detection methods, to recognize
-                criminal activities, to control planned terror acts, and to
-                respond to all crises, including fire, power failure, medical
-                and natural disasters.
-              </p>
-            </Col>
-            <Col md={4}>
-              <Image className="img-fluid" src={Residential} alt="" />
-            </Col>
-          </Row>
-        </Container>
-        <hr />
-        <Container>
-          <Row className="justify-content-center">
-            <Col md={4} className="text-align-self-center">
-              <Image className="img-fluid" src={Edu1} alt="" />
-              <Image className="img-fluid" src={Edu2} alt="" />
-            </Col>
-            <Col md={8}>
-              <h3 className="text-primary">
-                4 EDUCATIONAL INSTITITES SECURITY{" "}
-              </h3>
-              <p>
-                Our classrooms must be safe places for teaching and learning,
-                but reports still warn us that schools can be the site for
-                certain particularly unsafe incidents. Schools have to be
-                prepared to address a range of threats to security at schools,
-                such as weather, lock-in, bullying, and violent attacks.
-              </p>
-              <p>
-                CBSS Security is partnering with you and your staff to ensure
-                the workplace is prepared for both routine and unexpected safety
-                concerns. To order to meet the specific objectives, our school
-                security strategies are designed and implemented. To order to
-                promote campus security and provide a safe school environment we
-                introduce advanced training programs.
-              </p>
-              {/* <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
+        <div id="official" className="pt-3 pb-3 pt-md-5 pb-md-5">
+          <Container>
+            <Row className="justify-content-center ">
+              <Col md={8}>
+                <h3 className="text-primary">1 OFFICE & COMMERCIAL BUILDING</h3>
+                <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
+                  <strong>How important is Security guards?</strong>
+                </h5>
+                <p>
+                  At CBSS Security, we work with local law enforcement and
+                  facility managers to establish a Security Plan to meet all the
+                  various needs of the specific business building. We are
+                  committed to the vigilant security of these facilities in all
+                  its areas.
+                </p>
+                <p>
+                  Through combining advanced technologies with world-class
+                  experience to minimize risks, we optimize defense performance
+                  and reliability through our innovative approach to full
+                  security solutions for commercial buildings. Our commitment to
+                  our clients enables us to build lasting relationships with our
+                  clients that allow our clients to focus on their business
+                  while focusing on ours, which ensures the security of their
+                  customers, employees and property.
+                </p>
+                <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
+                  <strong>Why choose CBSS Security Services?</strong>
+                </h5>
+                <p>
+                  The highly trained workforce and access control programs
+                  maintain a sense of safety as customers and employees visit
+                  the workplace. Safety CBSS Security delivers 24-hour video
+                  control with the most modern security systems and
+                  professionally trained and experienced management services.
+                </p>
+                <p>
+                  The new advances in the fields of access control, GPS tracking
+                  and camera technology ensure optimum reliability and
+                  transparency.
+                </p>
+                <p>
+                  CBSS Security force for commercial and office buildings
+                  include the following, among many:
+                </p>
+                <ul>
+                  <li>CCTV</li>
+                  <li>Remote monitoring</li>
+                  <li>
+                    Managing potential issues with terminated and/or disgruntled
+                    employees
+                  </li>
+                  <li>
+                    Specifically, optimized programs for day and night
+                    surveillance
+                  </li>
+                  <li>Employee identification (ID) systems</li>
+                  <li>Perimeter and vertical checks</li>
+                  <li>Risk assessment survey</li>
+                  <li>Safety seminars for their employees</li>
+                  <li>Fire guards and Fire safety directors (FSD)</li>
+                  <li>Access control systems with or without biometrics</li>
+                  <li>24/7 Emergency response</li>
+                  <li>Coverage for strike or civil unrest</li>
+                </ul>
+                <p>
+                  <strong>
+                    Our top professional security guards protect from such
+                    victim
+                  </strong>
+                </p>
+              </Col>
+              <Col md={4}>
+                <Image className="img-fluid" src={Official} alt="" />
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div id="manfacturing" className=" pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
+          <Container>
+            <Row className="justify-content-center">
+              <Col md={4} className="align-self-center">
+                <Image className="img-fluid" src={Manufacture} alt="" />
+              </Col>
+              <Col md={8}>
+                <h3 className="text-primary">
+                  2 MANUFACTURING & INDUSTRIAL SECURITY{" "}
+                </h3>
+                <p>
+                  CARBON BLACK Security has extensive experience with retail and
+                  warehousing systems in resolving security threats. We also
+                  have expertise in helping our clients meet their compliance
+                  and other regulatory responsibilities. Our administration will
+                  perform security audits with your loss prevention team to
+                  determine the specific internal and external risks of your
+                  plant.
+                </p>
+                <p>
+                  For factories and processing facilities,{" "}
+                  <strong>security guards for industries </strong> are needed.
+                  Industrial workers may be uncovered, endangered and other
+                  risks of safety. Continuous and comprehensive monitoring of
+                  the production facility and network are essential elements of
+                  plant safety. Industrial buildings and plants are usually
+                  large, busy, crowded environments. Security threats are not
+                  unusual in and around industrial and physical plants, whether
+                  factory, mill, refinery, packing house or manufacturing
+                  facility.{" "}
+                </p>
+                {/* <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
                 <strong>Why choose CBSS Security Services?</strong>
               </h5> */}
-              <p>
-                We incorporate state-of – the-art technology into our expertise
-                to provide an innovative approach to school security solutions
-                which minimizes risks and maximizes safety. We are committed to
-                the best interests of our customers and their students. This
-                helps us build sustainable relationships and improves the
-                stability of the institutions we serve.
-              </p>
-              <p>Below are the safety responsibilities:</p>
-              <ul>
-                <li>
-                  Implementation and proper management of comprehensive location
-                  wide safety
-                </li>
-                <li>
-                  Supervising all security forces and trained them in the
-                  various procedures
-                </li>
-                <li>
-                  During the Fire Safety Drill ensuring that the floors in the
-                  buildings are cleared of
-                </li>
-                <li>Students/staff</li>
-                <li>
-                  To be particularly vigilant while on night patrol and to
-                  inspect all suspects, and also not to allow pass the gate
-                  without proper authorization.
-                </li>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
-        <hr />
+                <p>
+                  Each daily and routine security guard duty for industrial
+                  plants is important in order to maintain a well-functioning
+                  and risk-free building. We have a highly trained, licensed
+                  office and the best in security technology in our integrated
+                  solutions for addressing your safety needs, including loss
+                  prevention and control. Our solutions may be used in addition
+                  to our qualified professionals
+                </p>
+                <ul>
+                  <li>
+                    CCTV with 24/7 or motion activated feed, local or remote
+                    monitoring
+                  </li>
+                  <li>Daily reports of plant safety conditions</li>
+                  <li>
+                    Surveillance of all vehicles and people who have access to
+                    the property
+                  </li>
+                  <li>Various patterns of patrol to avoid routines</li>
+                  <li>Regular staircase and lift monitoring</li>
+                  <li>
+                    Access for all en Access may include the operation of:
+                    doorways, gates, and docks
+                  </li>
+                  <li>Perimeter surveillance</li>
+                </ul>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div id="residential" className="pt-3 pb-3 pt-md-5 pb-md-5">
+          <Container>
+            <Row className="justify-content-center">
+              <Col md={8} className="align-self-center">
+                <h3 className="text-primary">
+                  3 RESIDENTIAL BUILDING SECURITY
+                </h3>
+                <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
+                  <strong>How important is Security guards?</strong>
+                </h5>
+                <p>
+                  We use the optimal combination of workforce and technology to
+                  meet the particular concerns of the home communities and to
+                  create optimum solutions for residential security. One of the
+                  main advantages of{" "}
+                  <strong>
+                    residential or private security guards for property
+                  </strong>{" "}
+                  is that insurance rates will probably be lower when preventive
+                  measures are in place 24 hours a day
+                </p>
+                <p>
+                  You will take other things into account when you have decided
+                  that your building needs{" "}
+                  <strong>24-hrs security guards</strong>. You’re going to have
+                  guards who supervise themselves for work day parts and
+                  absolutely at the weekends and on holidays when you put 24hrs
+                  security on your premises.
+                </p>
+                <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
+                  <strong>
+                    Why choose Carbon Black for Residential building Security
+                    services?
+                  </strong>
+                </h5>
+                <p>
+                  Carbon Black provides highly customized security solutions
+                  with the staff and resources of a large company, using the
+                  extensive experience of our founding member to manage all
+                  activities. Hands-on administration, trained authorities and
+                  the latest technology combine in order to provide strategies
+                  specifically designed for each building or neighborhood for
+                  public health.
+                </p>
+                <p>
+                  We have an excellent record in partnering with local law
+                  enforcement agencies and the integration of community police
+                  services into the residential security solutions that we
+                  provide. We are continuously monitoring security technology
+                  improvements as well as changes in your building and community
+                  to ensure that your building safety plan is effective in
+                  securing your buildings continuously.
+                </p>
+                <p>
+                  Carbon Black Security can provide remote monitoring for your
+                  CCTV feed, using the new surveillance technology, highly
+                  qualified personnel and professional management throughout the
+                  whole clock. Our workers are tracked to ensure the highest
+                  degree of transparency and precision with the current
+                  developments in camera technology and GPS tracking.
+                </p>
+                <p>
+                  Every applicant for security guards is screened carefully and
+                  we have a proprietary training program with specialists in
+                  military and legal systems. The consequence is the ability of
+                  trained authorities to prevent and track life and property
+                  potential threats through sophisticated detection methods, to
+                  recognize criminal activities, to control planned terror acts,
+                  and to respond to all crises, including fire, power failure,
+                  medical and natural disasters.
+                </p>
+              </Col>
+              <Col md={4} className="align-self-center">
+                <Image className="img-fluid" src={Residential} alt="" />
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div id="educational" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
+          <Container>
+            <Row className="justify-content-center">
+              <Col md={4} className="align-self-center">
+                <Image className="img-fluid" src={Edu1} alt="" />
+                <Image className="img-fluid" src={Edu2} alt="" />
+              </Col>
+              <Col md={8}>
+                <h3 className="text-primary">
+                  4 EDUCATIONAL INSTITITES SECURITY{" "}
+                </h3>
+                <p>
+                  Our classrooms must be safe places for teaching and learning,
+                  but reports still warn us that schools can be the site for
+                  certain particularly unsafe incidents. Schools have to be
+                  prepared to address a range of threats to security at schools,
+                  such as weather, lock-in, bullying, and violent attacks.
+                </p>
+                <p>
+                  CBSS Security is partnering with you and your staff to ensure
+                  the workplace is prepared for both routine and unexpected
+                  safety concerns. To order to meet the specific objectives, our
+                  school security strategies are designed and implemented. To
+                  order to promote campus security and provide a safe school
+                  environment we introduce advanced training programs.
+                </p>
+                {/* <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
+                <strong>Why choose CBSS Security Services?</strong>
+              </h5> */}
+                <p>
+                  We incorporate state-of – the-art technology into our
+                  expertise to provide an innovative approach to school security
+                  solutions which minimizes risks and maximizes safety. We are
+                  committed to the best interests of our customers and their
+                  students. This helps us build sustainable relationships and
+                  improves the stability of the institutions we serve.
+                </p>
+                <p>Below are the safety responsibilities:</p>
+                <ul>
+                  <li>
+                    Implementation and proper management of comprehensive
+                    location wide safety
+                  </li>
+                  <li>
+                    Supervising all security forces and trained them in the
+                    various procedures
+                  </li>
+                  <li>
+                    During the Fire Safety Drill ensuring that the floors in the
+                    buildings are cleared of
+                  </li>
+                  <li>Students/staff</li>
+                  <li>
+                    To be particularly vigilant while on night patrol and to
+                    inspect all suspects, and also not to allow pass the gate
+                    without proper authorization.
+                  </li>
+                </ul>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div id="hospital" className="pt-3 pb-3 pt-md-5 pb-md-5">
+          
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
@@ -383,16 +396,17 @@ const SecurityServices = () => {
                 facility, which involves tact and understanding.
               </p>
             </Col>
-            <Col md={4}>
+            <Col md={4} className="align-self-center">
               <Image className="img-fluid" src={Residential} alt="" />
             </Col>
           </Row>
         </Container>
-        <hr />
+        </div>
+        <div id="warehouse" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">         
 
         <Container>
           <Row className="justify-content-center">
-            <Col md={4} className="text-align-self-center">
+            <Col md={4} className="align-self-center">
               <Image className="img-fluid" src={Warehouse1} alt="" />
               <Image className="img-fluid" src={Warehouse2} alt="" />
             </Col>
@@ -440,7 +454,9 @@ const SecurityServices = () => {
             </Col>
           </Row>
         </Container>
-        <hr />
+        </div>
+        <div id="bodygaurd" className="pt-3 pb-3 pt-md-5 pb-md-5">
+          
 
         <Container>
           <h2 className="text-primary text-center">PERSONAL BODYGUARD</h2>
@@ -455,53 +471,56 @@ const SecurityServices = () => {
           <Row className="justify-content-center">
             <div className="pt-5 pb-5">
               <Col md={12}>
-              <p>
-                We provide regular or occasional assistance and security for
-                famous artists at premiers, concert tours, movie locations or
-                other activities. We are focusing on safeguarding business VIPs;
-                including entrepreneurs, CEOs, banking companies, bank managers.
-                We conduct the duties of the Secretary Assistant and also deal
-                with the monitoring of information, identification of
-                interceptors and the safety of information during the meeting.
-              </p>
-              <ul>
-                <li>
-                  In all aspects of bodyguard service, our security team members
-                  are better trained.
-                </li>
-                <li>
-                  We have a great history in private or personal bodyguards
-                  across Karnataka.
-                </li>
-                <li>
-                  For events / vacation / business we offer temporary body guard
-                  services.
-                </li>
-              </ul>
-              <p>
-                Through adding a number of cameras to help secure the property
-                24/7, we will help you use the latest technology. The programs
-                include the latest sophisticated surveillance equipment, with
-                highly trained and professional personnel to ensure that any
-                accidents or risks are replied promptly.
-              </p>
-              <p>
-                Gated communities are calling on Individual to protect their
-                privacy and security. You will ensure that your door is met by
-                hiring trained, knowledgeable and trustworthy security officers
-                with expertise in a safe community. At CBSS, we are glad to
-                offer solutions based on their specific needs and priorities for
-                every Individual.
-              </p>
+                <p>
+                  We provide regular or occasional assistance and security for
+                  famous artists at premiers, concert tours, movie locations or
+                  other activities. We are focusing on safeguarding business
+                  VIPs; including entrepreneurs, CEOs, banking companies, bank
+                  managers. We conduct the duties of the Secretary Assistant and
+                  also deal with the monitoring of information, identification
+                  of interceptors and the safety of information during the
+                  meeting.
+                </p>
+                <ul>
+                  <li>
+                    In all aspects of bodyguard service, our security team
+                    members are better trained.
+                  </li>
+                  <li>
+                    We have a great history in private or personal bodyguards
+                    across Karnataka.
+                  </li>
+                  <li>
+                    For events / vacation / business we offer temporary body
+                    guard services.
+                  </li>
+                </ul>
+                <p>
+                  Through adding a number of cameras to help secure the property
+                  24/7, we will help you use the latest technology. The programs
+                  include the latest sophisticated surveillance equipment, with
+                  highly trained and professional personnel to ensure that any
+                  accidents or risks are replied promptly.
+                </p>
+                <p>
+                  Gated communities are calling on Individual to protect their
+                  privacy and security. You will ensure that your door is met by
+                  hiring trained, knowledgeable and trustworthy security
+                  officers with expertise in a safe community. At CBSS, we are
+                  glad to offer solutions based on their specific needs and
+                  priorities for every Individual.
+                </p>
               </Col>
             </div>
           </Row>
         </Container>
-        <hr />
+        </div>
+        <div id="dog" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
+          
         <Container>
           <Row className="justify-content-center">
-          <h3 className="text-primary text-center">DOG SQUAD SERVICES</h3>
-            <Col md={8}>              
+            <h3 className="text-primary text-center py-2">DOG SQUAD SERVICES</h3>
+            <Col md={9} className="align-self-center">
               <p>
                 Everybody needs a safe and stable atmosphere, we provide the
                 <strong> best dog squad security service</strong> to protect
@@ -534,16 +553,16 @@ const SecurityServices = () => {
                 Our dogs are well trained and knowledgeable to tackle all kinds
                 of situations. We provide the highest level of service and we
                 have a full responsibility for the safety of you. You can
-                contact Carbon Black Security force to avail the <strong>best dog squad
-                services in Bangalore.</strong> 
+                contact Carbon Black Security force to avail the{" "}
+                <strong>best dog squad services in Bangalore.</strong>
               </p>
-            </Col>            
-            <Col md={4}>
+            </Col>
+            <Col md={3} className="align-self-center">
               <Image className="img-fluid" src={Dog} alt="" />
             </Col>
           </Row>
         </Container>
-        <hr />
+        </div>
       </div>
     </div>
   );
