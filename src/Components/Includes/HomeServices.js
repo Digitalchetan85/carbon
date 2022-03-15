@@ -30,7 +30,7 @@ const HomeServices = () => {
     <div className="py-3 py-md-5">
       <Container>
         <h2 className="py-3 text-center text-primary">Our Services</h2>
-        <Row>
+        <Row className="g-3">
           {ServicesDetails.map((card) => (
             <Col md={4} key={card.id} className="text-center">
               <Card className="rounded">

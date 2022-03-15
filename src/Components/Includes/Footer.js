@@ -15,7 +15,7 @@ const Footer = () => {
           </Col>
           <Col md={4}>
             <address className="address text-white pt-3 pt-md-0 text-center text-md-start">
-              <p className="lh-base">
+              <p className="lh-base text-center">
                 Reg. Off. 710, 5th E Cross, 7th Main,
                 <br />  HRBR Layout, 2nd Block, Kalyan Nagar,
                 <br /> Bangalore - 560 043.

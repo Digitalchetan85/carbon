@@ -25,16 +25,16 @@ const TopMenubar = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto ms-auto">
-                <Nav.Link as={Link} to="/carbon-black-security-services" className="border-end">
+                <Nav.Link as={Link} to="/carbon-black-security-services" className="">
                   Home
                 </Nav.Link>
-                <Nav.Link as={Link} to="/about" className="border-end">
+                <Nav.Link as={Link} to="/about" className="">
                   About
                 </Nav.Link>
                 <NavDropdown
                   title="Services"
                   id="collasible-nav-dropdown"
-                  className="border-end"
+                  className=""
                 >
                   <NavDropdown.Item as={Link} to="/services/security">
                     Security
@@ -51,10 +51,10 @@ const TopMenubar = () => {
                     Facility Management
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link as={Link} to="/gallery" className="border-end">
+                <Nav.Link as={Link} to="/gallery" className="">
                   Gallery
                 </Nav.Link>
-                <Nav.Link as={Link} to="/contact">
+                <Nav.Link as={Link} className="border-0" to="/contact">
                   Contact
                 </Nav.Link>
               </Nav>

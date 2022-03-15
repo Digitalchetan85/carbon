@@ -11,6 +11,10 @@ import Safety from "../../Images/safety.png";
 import Risk1 from "../../Images/risk1.png";
 import Risk2 from "../../Images/risk2.png";
 import Site3 from "../../Images/site3.png";
+import RFID from "../../Images/rfid.png";
+import Building from "../../Images/building-management-system.png";
+import Garrett from "../../Images/garrett.png";
+import walky from "../../Images/walky.png"
 
 const Training = () => {
   return (
@@ -29,7 +33,7 @@ const Training = () => {
       <div id="training" className="pt-3 pb-3 pt-md-3 pb-md-3">
         <Container>
           <h2 className="text-center text-primary py-3">WHY SYNONYMS</h2>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={12}>
               <ol type="1">
                 <li>
@@ -84,23 +88,29 @@ const Training = () => {
               </ol>
             </Col>
           </Row>
-          <Row className="justify-content-center">
-            <Col md={4}>
-              <Image className="img-fluid" src={Train1} alt="" />
+          <Row className="g-3 justify-content-center">
+            <Col md={3}>
+              <div className="text-center">
+                <Image className="img-fluid" src={Train1} alt="" />
+              </div>
             </Col>
-            <Col md={4}>
-              <Image className="img-fluid" src={Train2} alt="" />
+            <Col md={3}>
+              <div className="text-center">
+                <Image className="img-fluid" src={Train2} alt="" />
+              </div>
             </Col>
-            <Col md={4}>
-              <Image className="img-fluid" src={Train3} alt="" />
+            <Col md={3}>
+              <div className="text-center">
+                <Image className="img-fluid" src={Train3} alt="" />
+              </div>
             </Col>
           </Row>
         </Container>
       </div>
       <div id="site-monitoring" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
         <Container>
-          <Row className="justify-content-center">
-            <h3 className="text-primary text-end">SITE MONITORING</h3>
+          <Row className="g-3 justify-content-center">
+            <h3 className="text-primary text-center py-3">SITE MONITORING</h3>
             <Col md={6}>
               <Image className="img-fluid" src={Site1} alt="" />
             </Col>
@@ -123,11 +133,11 @@ const Training = () => {
       </div>
       <div id="site-operation" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <Container>
-          <Row className="justify-content-center">
-            <h3 className="text-primary text-start">
+          <Row className="g-3 justify-content-center">
+            <h3 className="text-primary text-center py-3">
               Site Operating Procedures
             </h3>
-            <Col md={3} className="align-self-center">
+            <Col md={6} className="">
               <p>
                 Specific Site Operating Procedures (SOPs) are developed for each
                 client to ensure that relevant areas are regularly
@@ -140,20 +150,22 @@ const Training = () => {
                 specific security needs of individual businesses are addressed.
               </p>
             </Col>
-
-            <Col md={9} className="align-self-center">
-              <Image className="image-fluid" src={Site2} alt="" />
+            <Col md={6}>
+              <div className="text-center">
+                <Image className="img-fluid" src={Site2} alt="" />
+              </div>
             </Col>
           </Row>
+          <Row className="g-3 justify-content-center"></Row>
         </Container>
       </div>
       <div id="container" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
         <Container>
-          <Row className="justify-content-center py-2">
+          <Row className="g-3 justify-content-center py-2">
             <Col md={6} className="align-self-center">
-              <Card style={{ width: "30rem" }}>
+              <Card>
                 <Card.Body>
-                  <Card.Title className="text-primary">
+                  <Card.Title className="py-2 text-primary">
                     Digital Baton Point Monitoring
                   </Card.Title>
 
@@ -173,9 +185,9 @@ const Training = () => {
               <p>CBSS Security uses the latest digital technology in Baton Point Monitoring. This system requires all security guards to swipe their electronic batons at digital checkpoints at regular intervals. Baton Point Monitoring provides evidence that guards conduct their patrol on time and at the required frequency. It also gives confidence and peace of mind to clients that their premises are receiving around-the-clock protection.</p>               */}
             </Col>
             <Col md={6}>
-              <Card style={{ width: "30rem" }}>
+              <Card>
                 <Card.Body>
-                  <Card.Title className="text-primary">
+                  <Card.Title className="py-2 text-primary">
                     Daily Occurrence Book
                   </Card.Title>
 
@@ -200,12 +212,14 @@ const Training = () => {
 
       <div id="incident report" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <Container>
-          <Row className="justify-content-center">
-            <h3 className="text-primary text-end py-2">Incident Reports</h3>
-            <Col md={6}>
-              <Image className="img-fluid" src={Incident} alt="" />
+          <Row className="g-3 justify-content-center">
+            <h3 className="text-primary text-center py-2">Incident Reports</h3>
+            <Col md={4}>
+              <div className="text-center">
+                <Image className="img-fluid" src={Incident} alt="" />
+              </div>
             </Col>
-            <Col md={6}>
+            <Col md={8}>
               <p>
                 Incident Reports are provided to clients when serious events
                 take place during a shift covered by CBSS Security personnel.
@@ -227,11 +241,11 @@ const Training = () => {
 
       <div id="on-site" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
         <Container>
-          <Row className="justify-content-center">
-            <h3 className="text-primary text-start py-2">
+          <Row className="g-3 justify-content-center">
+            <h3 className="text-primary text-center py-2">
               On-site Security Guard Monitoring
             </h3>
-            <Col md={8}>
+            <Col md={12}>
               <p>
                 CBSS Security Operations Managers make weekly visits to all our
                 on-the-ground security guards. This ensures a clear line of
@@ -241,24 +255,23 @@ const Training = () => {
                 clients
               </p>
             </Col>
-            <Col md={4} className="align-self-center">
-              <Image className="img-fluid" src={Incident} alt="" />
-            </Col>
           </Row>
         </Container>
       </div>
 
       <div id="occupational" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <Container>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <h3 className="text-primary text-center py-2">
               Occupational Health & Safety
             </h3>
-            <Col md={8} className="align-self-center">
-              <Image className="img-fluid" src={Occupation1} alt="" />
-              <Image className="img-fluid" src={Safety} alt="" />
+            <Col md={6} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid m-2" src={Safety} alt="" />
+                <Image className="img-fluid m-2" src={Occupation1} alt="" />
+              </div>
             </Col>
-            <Col md={4} className="">
+            <Col md={6} className="">
               <p>
                 CBSS Security is dedicated to actively reducing Occupational
                 Health and Safety (OH&S) risks for staff and the general public,
@@ -281,9 +294,9 @@ const Training = () => {
 
       <div id="Risk" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
         <Container>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <h3 className="text-primary text-center py-2">Risk Mitigation</h3>
-            <Col md={4} className="align-self-center">
+            <Col md={12} className="align-self-center">
               <p>
                 CBSS Security personnel are well versed in emergency and
                 evacuation procedures and take a proactive approach to
@@ -303,9 +316,17 @@ const Training = () => {
                 security practice are maintained.
               </p>
             </Col>
-            <Col md={8} className="align-self-center">
-              <Image className="img-fluid" src={Risk2} alt="" />
-              <Image className="img-fluid" src={Risk1} alt="" />
+          </Row>
+          <Row className="g-3 justify-content-center">
+            <Col md={4}>
+              <div className="text-center">
+                <Image className="img-fluid" src={Risk2} alt="" />
+              </div>
+            </Col>
+            <Col md={4}>
+              <div className="text-center">
+                <Image className="img-fluid" src={Risk1} alt="" />
+              </div>
             </Col>
           </Row>
         </Container>
@@ -313,7 +334,7 @@ const Training = () => {
 
       <div id="policies" className="pt-3 pb-3 pt-md-3 pb-md-3">
         <Container>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={12} className="align-self-center">
               <h3 className="text-primary">POLICIES</h3>
               <p>
@@ -374,14 +395,27 @@ const Training = () => {
         </Container>
       </div>
 
-      <div id="staff training" className="pt-3 pb-3 pt-md-3 pb-md-3 bg-light">
+      <div id="staff-training" className="pt-3 pb-3 pt-md-3 pb-md-3 bg-light">
         <Container>
-          <Row className="justify-content-center">
-            <h3 className="text-primary py-3 text-center">
-              Staff Training & Development{" "}
-            </h3>
+          <h3 className="text-primary py-3 text-center">
+            Staff Training & Development{" "}
+          </h3>
+          <Row className="g-3 justify-content-center">
+            <Col md={6}>
+              <div className="text-center">
+                <Image className="img-fluid" src={Site2} alt="" />
+              </div>
+            </Col>
+            <Col md={6}>
+              <div className="text-center">
+                <Image className="img-fluid" src={Site3} alt="" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <Container className="py-3">
+          <Row className="g-3 justify-content-center">
             <Col md={12} className="align-self-center">
-              <Image className="img-fluid" src={Site2} alt="" />
               <p>
                 CBSS Security is conscious of the high degree of accountability
                 and adherence to government regulations required of all security
@@ -391,7 +425,6 @@ const Training = () => {
                 employees in the latest security techniques and ensure all are
                 conversant with the correct and appropriate use of equipment.
               </p>
-              <Image className="img-fluid" src={Site3} alt="" />
             </Col>
           </Row>
         </Container>
@@ -399,9 +432,11 @@ const Training = () => {
 
       <div id="performance" className="pt-3 pb-3 pt-md-5 pb-md-3">
         <Container>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={12}>
-              <h3 className="text-primary">Performance Monitoring</h3>
+              <h3 className="text-primary py-3 text-center">
+                Performance Monitoring
+              </h3>
               <p>
                 At CBSS Security we value the process of performance monitoring
                 as a tool for developing individual employees’ skills and for
@@ -430,8 +465,8 @@ const Training = () => {
         className="pt-3 pb-3 pt-md-3 pb-md-3 bg-light"
       >
         <Container>
-          <Row className="justify-content-center">
-            <Col md={12}>
+          <Row className="g-3 justify-content-center my-3 my-md-5">
+            <Col md={8}>
               <h3 className="text-primary py-3 text-center">
                 Building Management
               </h3>
@@ -450,6 +485,15 @@ const Training = () => {
                 detection systems, access control systems, fire detection
                 systems, building management systems.
               </p>
+            </Col>
+            <Col md={4}>
+              <div className="text-center">
+                <Image src={Building} alt="" className="img-fluid"></Image>
+              </div>
+            </Col>
+          </Row>
+          <Row className="g-3 justify-content-center my-3 my-md-5">
+            <Col md={8} className="align-self-center">
               <h4 className="text-primary">RFID</h4>
               <p>
                 Radio Frequency Identification (RFID) technology has been in
@@ -460,7 +504,21 @@ const Training = () => {
                 RFID, a type of Auto-ID technology is used to reduce time and
                 labor and improve real time data accuracy
               </p>
-              <h4 className="text-primary">DFMD/HHMD</h4>
+            </Col>
+            <Col md={4}>
+              <div className="text-center">
+                <Image src={RFID} alt="" className="img-fluid" />
+              </div>
+            </Col>
+          </Row>
+          <Row className="g-3 justify-content-center my-3 my-md-5">
+            <Col md={4}>
+              <div className="text-center">
+                <Image src={Garrett} alt="" className="img-fluid" />
+              </div>
+            </Col>
+            <Col md={8} className="align-self-center">
+            <h4 className="text-primary">DFMD/HHMD</h4>
               <p>
                 When it is concerned that you have to protect yourself from
                 unforeseen attacks in an event, then rely on CBSS which provides
@@ -471,7 +529,11 @@ const Training = () => {
                 establish on one door entry as well as worthy for full coverage
                 of multizone detection having 2-8 entry doors.
               </p>
-              <h4 className="text-primary">Walky-Talky</h4>
+            </Col>
+          </Row>
+          <Row className="g-3 justify-content-center my-3 my-md-5">
+            <Col md={8} className="align-self-center">
+            <h4 className="text-primary">Walky-Talky</h4>
               <p>
                 Citywide/Nationwide Coverage License Free Radio location through
                 GPS Unlimited Talk Groups Private Call/ Selective Call/ Group
@@ -483,6 +545,11 @@ const Training = () => {
                 Secrecy) One year free replacement warranty Cloud Technology
                 Connect via Wifi.
               </p>
+            </Col>
+            <Col md={4}>
+              <div className="text-center">
+                <Image src={walky} alt="" className="img-fluid" />
+              </div>
             </Col>
           </Row>
         </Container>

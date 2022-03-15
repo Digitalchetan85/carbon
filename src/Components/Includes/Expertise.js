@@ -27,7 +27,7 @@ const Expertise = () => {
   return (
     <div className="py-3 py-md-5 bg-light" id="exp">
       <Container>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center g-3">
           <Col md={8}>
             <h2 className="text-primary text-center"></h2>
             <p className="text-center">
@@ -38,7 +38,7 @@ const Expertise = () => {
             </p>
           </Col>
         </Row>
-        <Row>
+        <Row className="g-3">
           {details.map((item) => (
             <Col md={3} key="item.id">
               <Card className="text-center">

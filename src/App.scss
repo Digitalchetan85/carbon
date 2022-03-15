@@ -27,10 +27,12 @@ p {
 }
 
 #navbar {
+  padding: 20px 0px;
   .nav-link {
-    padding-right: 1.75rem;
-    padding-left: 1.75rem;
+    padding: 0px 20px;
     color: $white-color;
+    border-right: 1px solid $white-color;
+    text-transform: uppercase;
   }
 }
 

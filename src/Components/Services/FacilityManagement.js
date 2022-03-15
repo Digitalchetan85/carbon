@@ -19,6 +19,7 @@ import Log1 from "../../Images/log-1.png";
 import Log2 from "../../Images/log-2.png";
 import Log3 from "../../Images/log-3.png";
 import Value from "../../Images/value.png";
+import campus from "../../Images/campus.png";
 
 const FacilityManagement = () => {
   return (
@@ -76,14 +77,14 @@ const FacilityManagement = () => {
           </Row>
         </Container>
       </div>
-      <div id="escort" className="py-3 py-md-3 bg-light">
+      <div id="escort" className="py-3 py-md-5 bg-light">
         <Container>
-          <Row className="justify-content-center">
-            <h4 className="text-primary text-start py-md-3">
+          <Row className="g-3 justify-content-center">
+            <h4 className="text-primary text-center py-md-3">
               ESCORT GUARDING SERVICES (Escort by Rail, Road & Air Cargo)
             </h4>
 
-            <Col md={3}>
+            <Col md={12}>
               <p>
                 We provide industries and corporates with armed/unarmed escort
                 and services for cargos. Such services are mostly availed by
@@ -91,28 +92,26 @@ const FacilityManagement = () => {
                 cargos between destinations.
               </p>
             </Col>
-            <Col md={9} className="align-self-center">
+            <Col md={4} className="align-self-center">
               <Image className="img-fluid" src={Escort2} alt="" />
+            </Col>
+            <Col md={4} className="align-self-center">
               <Image className="img-fluid" src={Escort1} alt="" />
+            </Col>
+            <Col md={4} className="align-self-center">
               <Image className="img-fluid" src={Escort3} alt="" />
             </Col>
           </Row>
         </Container>
       </div>
-      <div id="action" className="pt-3 pb-3 pt-md-3 pb-md-3">
+      <div id="action" className="pt-3 pb-3 py-md-5">
         <Container>
-          <Row className="justify-content-center">
-            <h4 className="text-primary text-end py-3">
+          <Row className="g-3 justify-content-center">
+            <h4 className="text-primary text-center py-3">
               ACTION PLAN FROM CRIME PREVENTION
             </h4>
 
-            <Col md={9} className="align-self-center">
-              <Image className="img-fluid" src={Action1} alt="" />
-              <Image className="img-fluid" src={Action3} alt="" />
-              <Image className="img-fluid" src={Action2} alt="" />
-            </Col>
-
-            <Col md={3}>
+            <Col md={12}>
               <p>
                 The action plan for crime prevention involves identification of
                 the pattern of crime pertaining to owned assets, leased assets,
@@ -122,15 +121,26 @@ const FacilityManagement = () => {
                 order to curb the crime in an intended manner.
               </p>
             </Col>
+            <Col md={4} className="align-self-center">
+              <Image className="img-fluid" src={Action1} alt="" />
+            </Col>
+            <Col md={4} className="align-self-center">
+              <Image className="img-fluid" src={Action3} alt="" />
+            </Col>
+            <Col md={4} className="align-self-center">
+              <Image className="img-fluid" src={Action2} alt="" />
+            </Col>
           </Row>
         </Container>
       </div>
-      <div id="dog squad" className="pt-3 pb-3 pt-md-3 pb-md-3 bg-light">
+      <div id="dog squad" className="pt-3 pb-3 py-md-5 bg-light">
         <Container>
           <Row>
-            <h4 className="text-primary">DOG SQUAD WITH HANDLER</h4>
+            <h4 className="text-primary text-center py-3">
+              DOG SQUAD WITH HANDLER
+            </h4>
 
-            <Col md={8}>
+            <Col md={8} className="align-self-center">
               <p>
                 Our Dog Squad comprises highly pedigreed and trained German
                 Shepherds, Doberman, Pinschers and Labradors along with skilled
@@ -148,18 +158,14 @@ const FacilityManagement = () => {
           </Row>
         </Container>
       </div>
-      <div id="fire safety" className="pt-3 pb-3 pt-md-3 pb-md-3">
+      <div id="fire safety" className="pt-3 pb-3 py-md-5">
         <Container>
-          <Row>
-            <h4 className="text-primary text-end">
+          <Row className="g-3 justify-content-center">
+            <h4 className="text-primary text-center py-3">
               FIRE SAFETY & FIRE MARSHALL:
             </h4>
 
-            <Col md={6} className="align-self-center">
-              <Image className="img-fluid" src={Marshall1} alt="" />
-              <Image className="img-fluid" src={Marshall2} alt="" />
-            </Col>
-            <Col md={6}>
+            <Col md={12}>
               <p>
                 To carry out a systematic, critical appraisal of all potential
                 Fire hazards involving personnel, premises, services & operation
@@ -178,15 +184,28 @@ const FacilityManagement = () => {
                 submitted to the Fire Officer in charge.
               </p>
             </Col>
+
+            <Col md={4} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid" src={Marshall1} alt="" />
+              </div>
+            </Col>
+            <Col md={4} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid" src={Marshall2} alt="" />
+              </div>
+            </Col>
           </Row>
         </Container>
       </div>
 
-      <div id="bpo" className="pt-3 pb-3 pt-md-3 pb-md-3 bg-light">
+      <div id="bpo" className="pt-3 pb-3 py-md-5 bg-light">
         <Container>
           <Row>
-            <h4 className="text-primary">BPO / KPO / IT SECURITY</h4>
-            <Col md={7}>
+            <h4 className="text-primary text-center py-3">
+              BPO / KPO / IT SECURITY
+            </h4>
+            <Col md={8} className="align-self-center">
               <p>
                 Secure premises and personnel by patrolling property; monitoring
                 surveillance equipment; inspecting buildings, equipment and
@@ -198,23 +217,21 @@ const FacilityManagement = () => {
                 knowledge and technology skills.
               </p>
             </Col>
-            <Col md={5} className="align-self-center">
-              <Image className="img-fluid" src={Bpo} alt="" />
+            <Col md={4} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid" src={Bpo} alt="" />
+              </div>
             </Col>
           </Row>
         </Container>
       </div>
 
-      <div id="campus" className="pt-3 pb-3 pt-md-3 pb-md-3">
+      <div id="campus" className="pt-3 pb-3 py-md-5">
         <Container>
           <Row>
-            <h4 className="text-primary text-end py-3">CAMPUS SECURITY</h4>
+            <h4 className="text-primary text-center py-3">CAMPUS SECURITY</h4>
 
-            <Col md={6} className="align-self-center">
-              <Image className="img-fluid" src={Marshall1} alt="" />
-              <Image className="img-fluid" src={Marshall2} alt="" />
-            </Col>
-            <Col md={6}>
+            <Col md={12}>
               <p>
                 Campus Security personnel promote lawful behavior and protect
                 the welfare of students, faculty and staff as a uniformed
@@ -235,13 +252,13 @@ const FacilityManagement = () => {
           </Row>
         </Container>
       </div>
-      <div id="banking" className="pt-3 pb-3 pt-md-3 pb-md-3 bg-light">
+      <div id="banking" className="pt-3 pb-3 py-md-5 bg-light">
         <Container>
-          <Row className="justify-content-center">
-            <h4 className="text-primary py-3">
+          <Row className="g-3 justify-content-center">
+            <h4 className="text-primary text-center py-3">
               BANKING AND FINANCIAL INSTITUTIONS{" "}
             </h4>
-            <Col md={4}>
+            <Col md={12}>
               <p>
                 Security personnel is to ensure safety of the bank in all
                 respects. A bank security guard formulates strategies and
@@ -254,26 +271,29 @@ const FacilityManagement = () => {
                 cameras and others.
               </p>
             </Col>
-            <Col md={8} className="align-self-center">
-              <Image className="img-fluid" src={Bank1} alt="" />
-              <Image className="img-fluid" src={Bank2} alt="" />
+          </Row>
+          <Row className="g-3 justify-content-center">
+            <Col md={4} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid" src={Bank1} alt="" />
+              </div>
+            </Col>
+            <Col md={4} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid" src={Bank2} alt="" />
+              </div>
             </Col>
           </Row>
         </Container>
       </div>
-      <div id="event" className="pt-3 pb-3 pt-md-3 pb-md-3">
+      <div id="event" className="pt-3 pb-3 py-md-5">
         <Container>
-          <Row className="justify-content-center">
-            <h4 className="text-primary text-end py-3">
+          <Row className="g-3 justify-content-center">
+            <h4 className="text-primary text-center py-3">
               EVENT SECURITY MANAGEMENT
             </h4>
 
-            <Col md={9} className="align-self-center">
-              <Image className="img-fluid" src={Event1} alt="" />
-              <Image className="img-fluid" src={Event2} alt="" />
-              <Image className="img-fluid" src={Event3} alt="" />
-            </Col>
-            <Col md={3}>
+            <Col md={12}>
               <p>
                 Our Event Security Personnel provide protection and aid for
                 attendees at events like conferences and concerts. These
@@ -287,14 +307,29 @@ const FacilityManagement = () => {
                 aid when necessary.
               </p>
             </Col>
+            <Col md={4} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid" src={Event1} alt="" />
+              </div>
+            </Col>
+            <Col md={4} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid" src={Event2} alt="" />
+              </div>
+            </Col>
+            <Col md={4} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid" src={Event3} alt="" />
+              </div>
+            </Col>
           </Row>
         </Container>
       </div>
 
-      <div id="financial" className="pt-3 pb-3 pt-md-3 pb-md-3 bg-light">
+      <div id="financial" className="pt-3 pb-3 py-md-5 bg-light">
         <Container>
           <Row>
-            <h4 className="text-primary">
+            <h4 className="text-primary text-center py-3">
               BANKING AND FINANCIAL INSTITUTIONS{" "}
             </h4>
 
@@ -309,16 +344,24 @@ const FacilityManagement = () => {
               security instruments like computers, close circuit cameras and
               others.
             </p>
+          </Row>
+          <Row className="g-3 justify-content-center">
             <Col md={4} className="align-self-center">
-              <Image className="img-fluid" src={Log1} alt="" />
+              <div className="text-center">
+                <Image className="img-fluid" src={Log1} alt="" />
+              </div>
             </Col>
 
             <Col md={4} className="align-self-center">
-              <Image className="img-fluid" src={Log2} alt="" />
+              <div className="text-center">
+                <Image className="img-fluid" src={Log2} alt="" />
+              </div>
             </Col>
 
             <Col md={4} className="align-self-center">
-              <Image className="img-fluid" src={Log3} alt="" />
+              <div className="text-center">
+                <Image className="img-fluid" src={Log3} alt="" />
+              </div>
             </Col>
           </Row>
         </Container>
@@ -326,10 +369,22 @@ const FacilityManagement = () => {
 
       <div id="value" className="py-3 py-md-5">
         <Container>
-          <Row className="justify-content-center">
-            <h2 className="text-primary text-center">VALUE ADDED SERVICES</h2>
+          <h2 className="text-primary py-3 text-center">
+            VALUE ADDED SERVICES
+          </h2>
+          <Row className="g-3 justify-content-center mb-3 mb-md-5">
+            <Col md={8}>
+              <div className="text-center">
+                <Image
+                  className="img-fluid align-self-center"
+                  src={Value}
+                  alt=""
+                />
+              </div>
+            </Col>
+          </Row>
+          <Row className="g-3 justify-content-center">
             <Col md={12}>
-              <Image className="img-fluid align-self-center" src={Value} alt="" />    
               <p>
                 1. <strong>IT readiness & focus </strong>– CBSS Security Force
                 is effectively using the Information Technology across its

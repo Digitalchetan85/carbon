@@ -15,7 +15,7 @@ const Home = () => {
           <Row>
             <Col md={6} className="align-self-center">
               <div>
-                <h2 className="py-2 text-primary">
+                <h2 className="py-2 text-center text-md-start text-primary">
                   Carbon Black Security Services
                 </h2>
                 <p>
@@ -30,9 +30,11 @@ const Home = () => {
                   solutions, we help protect businesses, employees, communities
                   and assets and make the world a safer place.
                 </p>
-                <a href="/about" class="btn btn-primary">
-                  Read More
-                </a>
+                <div className="text-center text-md-start">
+                  <a href="/about" class="btn btn-primary">
+                    Read More
+                  </a>
+                </div>
               </div>
             </Col>
             <Col md={6} className="align-self-center">
