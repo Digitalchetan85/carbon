@@ -30,7 +30,7 @@ const SecurityServices = () => {
           <h3 className="text-primary py-3 text-center">
             OFFICE & COMMERCIAL BUILDING
           </h3>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={12}>
               <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
                 <strong>How important is Security guards?</strong>
@@ -54,7 +54,7 @@ const SecurityServices = () => {
               </p>
             </Col>
           </Row>
-          <Row className="g-3">
+          <Row className="g-3 g-3">
             <Col md={8}>
               <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
                 <strong>Why choose CBSS Security Services?</strong>
@@ -113,9 +113,11 @@ const SecurityServices = () => {
           <h3 className="text-primary py-3 text-center">
             MANUFACTURING & INDUSTRIAL SECURITY{" "}
           </h3>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={4} className="text-center">
-              <Image className="img-fluid" src={Manufacture} alt="" />
+              <div className="text-center mb-3">
+                <Image className="img-fluid" src={Manufacture} alt="" />
+              </div>
             </Col>
             <Col md={8}>
               <p>
@@ -175,14 +177,14 @@ const SecurityServices = () => {
           <h3 className="text-primary py-3 text-center">
             RESIDENTIAL BUILDING SECURITY
           </h3>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={8}>
               <div className="text-center text-md-start py-3">
                 <Image className="img-fluid" src={Residential} alt="" />
               </div>
             </Col>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={12}>
               <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
                 <strong>How important is Security guards?</strong>
@@ -254,7 +256,7 @@ const SecurityServices = () => {
           <h3 className="text-primary py-3 text-center">
             EDUCATIONAL INSTITITES SECURITY{" "}
           </h3>
-          <Row className="">
+          <Row className="g-3 ">
             <Col md={6}>
               <div className="py-3">
                 <Image className="img-fluid" src={Edu1} alt="" />
@@ -266,7 +268,7 @@ const SecurityServices = () => {
               </div>
             </Col>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={12}>
               <p>
                 Our classrooms must be safe places for teaching and learning,
@@ -321,14 +323,14 @@ const SecurityServices = () => {
         <hr />
         <Container className="py-3 py-md-5">
           <h3 className="text-primary py-3 text-center">HOSPITAL SECURITY</h3>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={8}>
               <div className="text-center text-md-start py-3">
                 <Image className="img-fluid" src={Residential} alt="" />
               </div>
             </Col>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={12}>
               <p>
                 When considering the safety and security of your doctors,
@@ -414,25 +416,24 @@ const SecurityServices = () => {
             </Col>
           </Row>
         </Container>
-        <hr />
 
         <Container className="py-3 py-md-5">
           <h3 className="text-primary py-3 text-center">
             WAREHOUSE & LOGISTICS SECURITY
           </h3>
-          <Row className="">
+          <Row className="g-3 ">
             <Col md={6}>
               <div className="text-center">
-                <Image className="img-fluid m-2" src={Warehouse1} alt="" />
+                <Image className="img-fluid " src={Warehouse1} alt="" />
               </div>
             </Col>
             <Col md={6}>
               <div className="text-center">
-                <Image className="img-fluid m-2" src={Warehouse2} alt="" />
+                <Image className="img-fluid " src={Warehouse2} alt="" />
               </div>
             </Col>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={12}>
               <p>
                 Carbon Black Security is pleased to offer cost-friendly, but
@@ -476,11 +477,10 @@ const SecurityServices = () => {
             </Col>
           </Row>
         </Container>
-        <hr />
 
         <Container className="py-3 py-md-5">
           <h2 className="text-primary text-center py-2">PERSONAL BODYGUARD</h2>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <Col md={6}>
               <div className="">
                 <Image className="img-fluid" src={Personal1} alt="" />
@@ -492,7 +492,7 @@ const SecurityServices = () => {
               </div>
             </Col>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <div className="pt-5 pb-5">
               <Col md={12}>
                 <p>
@@ -540,7 +540,7 @@ const SecurityServices = () => {
         </Container>
         <hr />
         <Container className="py-3 py-md-5">
-          <Row className="justify-content-center">
+          <Row className="g-3 justify-content-center">
             <h3 className="text-primary text-center py-3">
               DOG SQUAD SERVICES
             </h3>
@@ -586,7 +586,6 @@ const SecurityServices = () => {
             </Col>
           </Row>
         </Container>
-        <hr />
       </div>
     </div>
   );
