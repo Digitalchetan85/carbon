@@ -19,7 +19,6 @@ import Log1 from "../../Images/log-1.png";
 import Log2 from "../../Images/log-2.png";
 import Log3 from "../../Images/log-3.png";
 import Value from "../../Images/value.png";
-import campus from "../../Images/campus.png";
 
 const FacilityManagement = () => {
   return (
