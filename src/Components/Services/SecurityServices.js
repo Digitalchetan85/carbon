@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
-import Official from "../../Images/official.jpg";
+import Official from "../../Images/official.png";
 import Manufacture from "../../Images/manufacture.png";
 import Residential from "../../Images/residential.png";
 import Edu1 from "../../Images/edu-1.png";
@@ -26,10 +26,12 @@ const SecurityServices = () => {
         </Container>
       </div>
       <div id="services" className="pt-3 pb-3 pt-md-5 pb-md-5">
-        <Container>
+        <Container className="pb-3 pb-md-5">
+          <h3 className="text-primary py-3 text-center">
+            OFFICE & COMMERCIAL BUILDING
+          </h3>
           <Row className="justify-content-center">
-            <Col md={8}>
-              <h3 className="text-primary">1 OFFICE & COMMERCIAL BUILDING</h3>
+            <Col md={12}>
               <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
                 <strong>How important is Security guards?</strong>
               </h5>
@@ -50,6 +52,10 @@ const SecurityServices = () => {
                 focusing on ours, which ensures the security of their customers,
                 employees and property.
               </p>
+            </Col>
+          </Row>
+          <Row className="g-3">
+            <Col md={8}>
               <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
                 <strong>Why choose CBSS Security Services?</strong>
               </h5>
@@ -95,21 +101,23 @@ const SecurityServices = () => {
                 </strong>
               </p>
             </Col>
-            <Col md={4}>
-              <Image className="img-fluid" src={Official} alt="" />
+            <Col md={4} className="align-self-center">
+              <div className="text-center">
+                <Image className="img-fluid" src={Official} alt="" />
+              </div>
             </Col>
           </Row>
         </Container>
         <hr />
-        <Container>
+        <Container className="py-3 py-md-5">
+          <h3 className="text-primary py-3 text-center">
+            MANUFACTURING & INDUSTRIAL SECURITY{" "}
+          </h3>
           <Row className="justify-content-center">
             <Col md={4} className="text-center">
               <Image className="img-fluid" src={Manufacture} alt="" />
             </Col>
             <Col md={8}>
-              <h3 className="text-primary">
-                2 MANUFACTURING & INDUSTRIAL SECURITY{" "}
-              </h3>
               <p>
                 CARBON BLACK Security has extensive experience with retail and
                 warehousing systems in resolving security threats. We also have
@@ -163,10 +171,19 @@ const SecurityServices = () => {
           </Row>
         </Container>
         <hr />
-        <Container>
+        <Container className="py-3 py-md-5">
+          <h3 className="text-primary py-3 text-center">
+            RESIDENTIAL BUILDING SECURITY
+          </h3>
           <Row className="justify-content-center">
             <Col md={8}>
-              <h3 className="text-primary">3 RESIDENTIAL BUILDING SECURITY</h3>
+              <div className="text-center text-md-start py-3">
+                <Image className="img-fluid" src={Residential} alt="" />
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <Col md={12}>
               <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
                 <strong>How important is Security guards?</strong>
               </h5>
@@ -230,22 +247,27 @@ const SecurityServices = () => {
                 and natural disasters.
               </p>
             </Col>
-            <Col md={4}>
-              <Image className="img-fluid" src={Residential} alt="" />
-            </Col>
           </Row>
         </Container>
         <hr />
-        <Container>
-          <Row className="justify-content-center">
-            <Col md={4} className="text-align-self-center">
-              <Image className="img-fluid" src={Edu1} alt="" />
-              <Image className="img-fluid" src={Edu2} alt="" />
+        <Container className="py-3 py-md-5">
+          <h3 className="text-primary py-3 text-center">
+            EDUCATIONAL INSTITITES SECURITY{" "}
+          </h3>
+          <Row className="">
+            <Col md={6}>
+              <div className="py-3">
+                <Image className="img-fluid" src={Edu1} alt="" />
+              </div>
             </Col>
-            <Col md={8}>
-              <h3 className="text-primary">
-                4 EDUCATIONAL INSTITITES SECURITY{" "}
-              </h3>
+            <Col md={6}>
+              <div className="py-3">
+                <Image className="img-fluid" src={Edu2} alt="" />
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <Col md={12}>
               <p>
                 Our classrooms must be safe places for teaching and learning,
                 but reports still warn us that schools can be the site for
@@ -297,10 +319,17 @@ const SecurityServices = () => {
           </Row>
         </Container>
         <hr />
-        <Container>
+        <Container className="py-3 py-md-5">
+          <h3 className="text-primary py-3 text-center">HOSPITAL SECURITY</h3>
           <Row className="justify-content-center">
             <Col md={8}>
-              <h3 className="text-primary">5 HOSPITAL SECURITY</h3>
+              <div className="text-center text-md-start py-3">
+                <Image className="img-fluid" src={Residential} alt="" />
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <Col md={12}>
               <p>
                 When considering the safety and security of your doctors,
                 nurses, patients, and adequately, top-notice protection is of
@@ -383,21 +412,28 @@ const SecurityServices = () => {
                 facility, which involves tact and understanding.
               </p>
             </Col>
-            <Col md={4}>
-              <Image className="img-fluid" src={Residential} alt="" />
-            </Col>
           </Row>
         </Container>
         <hr />
 
-        <Container>
-          <Row className="justify-content-center">
-            <Col md={4} className="text-align-self-center">
-              <Image className="img-fluid" src={Warehouse1} alt="" />
-              <Image className="img-fluid" src={Warehouse2} alt="" />
+        <Container className="py-3 py-md-5">
+          <h3 className="text-primary py-3 text-center">
+            WAREHOUSE & LOGISTICS SECURITY
+          </h3>
+          <Row className="">
+            <Col md={6}>
+              <div className="text-center">
+                <Image className="img-fluid m-2" src={Warehouse1} alt="" />
+              </div>
             </Col>
-            <Col md={8}>
-              <h3 className="text-primary">6 WAREHOUSE & LOGISTICS SECURITY</h3>
+            <Col md={6}>
+              <div className="text-center">
+                <Image className="img-fluid m-2" src={Warehouse2} alt="" />
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <Col md={12}>
               <p>
                 Carbon Black Security is pleased to offer cost-friendly, but
                 limited access to warehouse sites, logistics security solutions
@@ -442,66 +478,73 @@ const SecurityServices = () => {
         </Container>
         <hr />
 
-        <Container>
-          <h2 className="text-primary text-center">PERSONAL BODYGUARD</h2>
+        <Container className="py-3 py-md-5">
+          <h2 className="text-primary text-center py-2">PERSONAL BODYGUARD</h2>
           <Row className="justify-content-center">
             <Col md={6}>
-              <Image className="img-fluid" src={Personal1} alt="" />
+              <div className="">
+                <Image className="img-fluid" src={Personal1} alt="" />
+              </div>
             </Col>
             <Col md={6}>
-              <Image className="img-fluid" src={Personal2} alt="" />
+              <div className="">
+                <Image className="img-fluid" src={Personal2} alt="" />
+              </div>
             </Col>
           </Row>
           <Row className="justify-content-center">
             <div className="pt-5 pb-5">
               <Col md={12}>
-              <p>
-                We provide regular or occasional assistance and security for
-                famous artists at premiers, concert tours, movie locations or
-                other activities. We are focusing on safeguarding business VIPs;
-                including entrepreneurs, CEOs, banking companies, bank managers.
-                We conduct the duties of the Secretary Assistant and also deal
-                with the monitoring of information, identification of
-                interceptors and the safety of information during the meeting.
-              </p>
-              <ul>
-                <li>
-                  In all aspects of bodyguard service, our security team members
-                  are better trained.
-                </li>
-                <li>
-                  We have a great history in private or personal bodyguards
-                  across Karnataka.
-                </li>
-                <li>
-                  For events / vacation / business we offer temporary body guard
-                  services.
-                </li>
-              </ul>
-              <p>
-                Through adding a number of cameras to help secure the property
-                24/7, we will help you use the latest technology. The programs
-                include the latest sophisticated surveillance equipment, with
-                highly trained and professional personnel to ensure that any
-                accidents or risks are replied promptly.
-              </p>
-              <p>
-                Gated communities are calling on Individual to protect their
-                privacy and security. You will ensure that your door is met by
-                hiring trained, knowledgeable and trustworthy security officers
-                with expertise in a safe community. At CBSS, we are glad to
-                offer solutions based on their specific needs and priorities for
-                every Individual.
-              </p>
+                <p>
+                  We provide regular or occasional assistance and security for
+                  famous artists at premiers, concert tours, movie locations or
+                  other activities. We are focusing on safeguarding business
+                  VIPs; including entrepreneurs, CEOs, banking companies, bank
+                  managers. We conduct the duties of the Secretary Assistant and
+                  also deal with the monitoring of information, identification
+                  of interceptors and the safety of information during the
+                  meeting.
+                </p>
+                <ul>
+                  <li>
+                    In all aspects of bodyguard service, our security team
+                    members are better trained.
+                  </li>
+                  <li>
+                    We have a great history in private or personal bodyguards
+                    across Karnataka.
+                  </li>
+                  <li>
+                    For events / vacation / business we offer temporary body
+                    guard services.
+                  </li>
+                </ul>
+                <p>
+                  Through adding a number of cameras to help secure the property
+                  24/7, we will help you use the latest technology. The programs
+                  include the latest sophisticated surveillance equipment, with
+                  highly trained and professional personnel to ensure that any
+                  accidents or risks are replied promptly.
+                </p>
+                <p>
+                  Gated communities are calling on Individual to protect their
+                  privacy and security. You will ensure that your door is met by
+                  hiring trained, knowledgeable and trustworthy security
+                  officers with expertise in a safe community. At CBSS, we are
+                  glad to offer solutions based on their specific needs and
+                  priorities for every Individual.
+                </p>
               </Col>
             </div>
           </Row>
         </Container>
         <hr />
-        <Container>
+        <Container className="py-3 py-md-5">
           <Row className="justify-content-center">
-          <h3 className="text-primary text-center">DOG SQUAD SERVICES</h3>
-            <Col md={8}>              
+            <h3 className="text-primary text-center py-3">
+              DOG SQUAD SERVICES
+            </h3>
+            <Col md={12}>
               <p>
                 Everybody needs a safe and stable atmosphere, we provide the
                 <strong> best dog squad security service</strong> to protect
@@ -510,6 +553,9 @@ const SecurityServices = () => {
                 smelling and because they are the strongest protectors of the
                 situation.
               </p>
+              <div className="text-center text-md-start">
+                <Image className="img-fluid" src={Dog} alt="" />
+              </div>
               <h5 className="pt-2 pb-2 pt-md-3 pb-md-3">
                 <strong>What Do We Provide?</strong>
               </h5>
@@ -534,12 +580,9 @@ const SecurityServices = () => {
                 Our dogs are well trained and knowledgeable to tackle all kinds
                 of situations. We provide the highest level of service and we
                 have a full responsibility for the safety of you. You can
-                contact Carbon Black Security force to avail the <strong>best dog squad
-                services in Bangalore.</strong> 
+                contact Carbon Black Security force to avail the{" "}
+                <strong>best dog squad services in Bangalore.</strong>
               </p>
-            </Col>            
-            <Col md={4}>
-              <Image className="img-fluid" src={Dog} alt="" />
             </Col>
           </Row>
         </Container>
