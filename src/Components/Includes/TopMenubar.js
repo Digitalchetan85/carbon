@@ -8,7 +8,7 @@ const TopMenubar = () => {
   return (
     <>
       <div className="sticky-top">
-        <div className="text-center py-2 d-none d-md-block bg-white" >
+        <div className="text-center py-2 d-none d-md-block bg-white">
           <Image className="img-fluid" src={logo} alt="" />
         </div>
         <Navbar
@@ -19,44 +19,31 @@ const TopMenubar = () => {
           id="navbar"
         >
           <Container>
-            <Navbar.Brand as={Link} to="/carbon-black-security-services" className="d-block d-md-none">
+          <Navbar.Brand
+              as={Link}
+              to="/carbon-black-security-services"
+              className="d-block d-md-none"
+            >
               <Image className="img-fluid" src={mobLogo} alt="" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto ms-auto">
-                <Nav.Link as={Link} to="/carbon-black-security-services" className="">
-                  Home
-                </Nav.Link>
-                <Nav.Link as={Link} to="/about" className="">
-                  About
-                </Nav.Link>
-                <NavDropdown
-                  title="Services"
-                  id="collasible-nav-dropdown"
-                  className=""
-                >
-                  <NavDropdown.Item as={Link} to="/services/security">
-                    Security
-                  </NavDropdown.Item>
+                <Nav.Link as={Link} to="/carbon-black-security-services">Home</Nav.Link>
+                <Nav.Link as={Link} to="/about">About</Nav.Link>
+                <NavDropdown title="Services" id="collasible-nav-dropdown">
+                  <NavDropdown.Item as={Link} to="/services/security">Security Services</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item as={Link} to="/services/training">
-                    Training
+                    Training Services
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/services/facility-management"
-                  >
+                  <NavDropdown.Item as={Link} to="/services/facility-management">
                     Facility Management
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link as={Link} to="/gallery" className="">
-                  Gallery
-                </Nav.Link>
-                <Nav.Link as={Link} className="border-0" to="/contact">
-                  Contact
-                </Nav.Link>
+                <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
+                <Nav.Link as={Link} to="/contact" className="border-0">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
