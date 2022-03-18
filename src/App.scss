@@ -34,6 +34,22 @@ p {
     border-right: 1px solid $white-color;
     text-transform: uppercase;
   }
+  .dropdown-menu {
+    background-color: $primary-color;
+  }
+  .dropdown-item {
+    color: $white-color !important;
+    border: none !important;
+    &:hover {
+      color: $primary-color !important;
+      background-color: $white-color !important;
+    }
+  }
+}
+
+#services {
+  background-color: $primary-color;
+  padding: 10px 10px !important;
 }
 
 #testimonials {

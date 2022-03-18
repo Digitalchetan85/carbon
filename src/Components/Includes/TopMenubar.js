@@ -19,7 +19,7 @@ const TopMenubar = () => {
           id="navbar"
         >
           <Container>
-          <Navbar.Brand
+            <Navbar.Brand
               as={Link}
               to="/carbon-black-security-services"
               className="d-block d-md-none"
@@ -29,21 +29,125 @@ const TopMenubar = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto ms-auto">
-                <Nav.Link as={Link} to="/carbon-black-security-services">Home</Nav.Link>
-                <Nav.Link as={Link} to="/about">About</Nav.Link>
-                <NavDropdown title="Services" id="collasible-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/services/security">Security Services</NavDropdown.Item>
-                  <NavDropdown.Divider />
+                <Nav.Link as={Link} to="/carbon-black-security-services">
+                  Home
+                </Nav.Link>
+                <Nav.Link as={Link} to="/about">
+                  About
+                </Nav.Link>
+                <NavDropdown title="Services" id="servicesdrop">
+                  <NavDropdown
+                    title="Seurity Serivices"
+                    id="services"
+                    drop="end"
+                  >
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/security-services/official"
+                    >
+                      Official Buildings
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/security-services/residential"
+                    >
+                      Residential Buildings
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/security-services/body-gaurd"
+                    >
+                      Body Gaurd
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/security-services/education"
+                    >
+                      Education
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/security-services/hospital"
+                    >
+                      Hospital
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/security-services/dog-squad"
+                    >
+                      Dog Squad
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/security-services/warehouse"
+                    >
+                      Warehouse
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                  <NavDropdown
+                    title="Training Serivices"
+                    id="services"
+                    drop="end"
+                  >
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/capability-building-programs/ic-agile"
+                    >
+                      IC Agile
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/capability-building-programs/safe"
+                    >
+                      SAFe
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/capability-building-programs/dasa"
+                    >
+                      DASA
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                  <NavDropdown
+                    title="Facility Management Services"
+                    id="services"
+                    drop="end"
+                  >
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/capability-building-programs/ic-agile"
+                    >
+                      IC Agile
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/capability-building-programs/safe"
+                    >
+                      SAFe
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/capability-building-programs/dasa"
+                    >
+                      DASA
+                    </NavDropdown.Item>
+                  </NavDropdown>
                   <NavDropdown.Item as={Link} to="/services/training">
                     Training Services
                   </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item as={Link} to="/services/facility-management">
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/services/facility-management"
+                  >
                     Facility Management
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
-                <Nav.Link as={Link} to="/contact" className="border-0">Contact</Nav.Link>
+                <Nav.Link as={Link} to="/gallery">
+                  Gallery
+                </Nav.Link>
+                <Nav.Link as={Link} to="/contact" className="border-0">
+                  Contact
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

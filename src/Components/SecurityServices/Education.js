@@ -1,14 +1,23 @@
-import React from 'react'
-import { Container, Row, Col, Image} from 'react-bootstrap';
-import Edu1 from "../../Images/edu-1.png";
-import Edu2 from "../../Images/edu-2.png";
+import React from "react";
 
-
-const Educational = () => {
+const Education = () => {
   return (
     <div>
-      
-      <Container className="py-3 py-md-5">
+      <div id="about-us" className="bg-info">
+        <Container>
+          <Row>
+            <Col md={12}>
+              <div className="pt-5 pb-5">
+                <h2 className="text-center text-secondary">
+                  Our Services - Education Institute Security
+                </h2>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="py-3 py-md-5">
+        <Container>
           <h3 className="text-primary py-3 text-center">
             EDUCATIONAL INSTITITES SECURITY{" "}
           </h3>
@@ -76,9 +85,9 @@ const Educational = () => {
             </Col>
           </Row>
         </Container>
-
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Educational
+export default Education;
