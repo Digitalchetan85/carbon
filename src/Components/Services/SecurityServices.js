@@ -15,7 +15,7 @@ const SecurityServices = () => {
   return (
     <div>
       <div id="about-us" className="bg-info">
-        <Container>
+        {/* <Container>
           <Row>
             <Col md={12}>
               <div className="pt-5 pb-5">
@@ -23,10 +23,11 @@ const SecurityServices = () => {
               </div>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
+        <hr />
       </div>
       <div id="services" className="pt-3 pb-3 pt-md-5 pb-md-5">
-        <Container className="pb-3 pb-md-5">
+      <Container className="pb-3 pb-md-5">
           <h3 className="text-primary py-3 text-center">
             OFFICE & COMMERCIAL BUILDING
           </h3>
@@ -109,12 +110,12 @@ const SecurityServices = () => {
           </Row>
         </Container>
         <hr />
-        <Container className="py-3 py-md-5">
+                <Container className="py-3 py-md-5">
           <h3 className="text-primary py-3 text-center">
             MANUFACTURING & INDUSTRIAL SECURITY{" "}
           </h3>
           <Row className="g-3 justify-content-center">
-            <Col md={4} className="text-center">
+            <Col md={4} className="align-self-center">
               <div className="text-center mb-3">
                 <Image className="img-fluid" src={Manufacture} alt="" />
               </div>
