@@ -1,4 +1,11 @@
 import React from "react";
+import { Container, Row, Col, Image} from "react-bootstrap";
+import Safety from "../../Images/safety.png";
+import Occupation1 from "../../Images/occupation-1.png";
+import Risk1 from "../../Images/risk1.png";
+import Risk2 from "../../Images/risk2.png";
+
+
 
 const HealthSaftey = () => {
   return (
@@ -9,7 +16,7 @@ const HealthSaftey = () => {
             <Col md={12}>
               <div className="pt-5 pb-5">
                 <h2 className="text-center text-secondary">
-                  Our Services - Health & Safety
+                  Our Services 
                 </h2>
               </div>
             </Col>

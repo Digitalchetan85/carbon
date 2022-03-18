@@ -1,4 +1,9 @@
 import React from "react";
+import { Container, Row, Col, Image} from "react-bootstrap";
+import Action1 from "../../Images/action-1.png";
+import Action2 from "../../Images/action-2.png";
+import Action3 from "../../Images/action-3.png";
+import Dog1 from "../../Images/dog-1.png";
 
 const Crime = () => {
   return (
@@ -9,7 +14,7 @@ const Crime = () => {
             <Col md={12}>
               <div className="pt-5 pb-5">
                 <h2 className="text-center text-secondary">
-                Facility Management Services - Crime Preventation
+                Facility Management Services
                 </h2>
               </div>
             </Col>

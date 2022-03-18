@@ -1,4 +1,7 @@
 import React from "react";
+import { Col, Container, Row, Image } from "react-bootstrap";
+import Official1 from "../../Images/official.png";
+import Manufacture from "../../Images/manufacture.png"
 
 const Official = () => {
   return (
@@ -8,7 +11,7 @@ const Official = () => {
           <Row>
             <Col md={12}>
               <div className="pt-5 pb-5">
-                <h2 className="text-center text-secondary">Our Services - Official & Commercial Building</h2>
+                <h2 className="text-center text-secondary">Our Services</h2>
               </div>
             </Col>
           </Row>
@@ -92,7 +95,7 @@ const Official = () => {
             </Col>
             <Col md={4} className="align-self-center">
               <div className="text-center">
-                <Image className="img-fluid" src={Official} alt="" />
+                <Image className="img-fluid" src={Official1} alt="" />
               </div>
             </Col>
           </Row>

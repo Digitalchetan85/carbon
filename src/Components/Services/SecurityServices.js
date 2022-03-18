@@ -1,15 +1,15 @@
 import React from "react";
-import { Col, Container, Row, Image } from "react-bootstrap";
-import Official from "../../Images/official.png";
-import Manufacture from "../../Images/manufacture.png";
-import Residential from "../../Images/residential.png";
-import Edu1 from "../../Images/edu-1.png";
-import Edu2 from "../../Images/edu-2.png";
-import Warehouse1 from "../../Images/warehouse-1.png";
-import Warehouse2 from "../../Images/warehouse-2.png";
-import Personal1 from "../../Images/personal-1.png";
-import Personal2 from "../../Images/personal-2.png";
-import Dog from "../../Images/dog.png";
+import { Col, Container, Row,} from "react-bootstrap";
+// import Official from "../../Images/official.png";
+// import Manufacture from "../../Images/manufacture.png";
+// import Residential from "../../Images/residential.png";
+// import Edu1 from "../../Images/edu-1.png";
+// import Edu2 from "../../Images/edu-2.png";
+// import Warehouse1 from "../../Images/warehouse-1.png";
+// import Warehouse2 from "../../Images/warehouse-2.png";
+// import Personal1 from "../../Images/personal-1.png";
+// import Personal2 from "../../Images/personal-2.png";
+// import Dog from "../../Images/dog.png";
 
 const SecurityServices = () => {
   return (

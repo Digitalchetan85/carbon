@@ -1,4 +1,6 @@
 import React from "react";
+import { Container,Row, Col, Image } from "react-bootstrap";
+import Residential1 from "../../Images/residential.png"
 
 const Residential = () => {
   return (
@@ -9,7 +11,7 @@ const Residential = () => {
             <Col md={12}>
               <div className="pt-5 pb-5">
                 <h2 className="text-center text-secondary">
-                  Our Services - Residential Building Security
+                  Our Services
                 </h2>
               </div>
             </Col>
@@ -25,7 +27,7 @@ const Residential = () => {
           <Row className="g-3 justify-content-center">
             <Col md={8}>
               <div className="text-center text-md-start py-3">
-                <Image className="img-fluid" src={Residential} alt="" />
+                <Image className="img-fluid" src={Residential1} alt="" />
               </div>
             </Col>
           </Row>

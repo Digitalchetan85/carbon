@@ -91,21 +91,21 @@ const TopMenubar = () => {
                   >
                     <NavDropdown.Item
                       as={Link}
-                      to="/capability-building-programs/ic-agile"
+                      to="/training-services/site-monitoring"
                     >
-                      IC Agile
+                      Site Monitoring
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       as={Link}
-                      to="/capability-building-programs/safe"
+                      to="/training-services/staff-managment"
                     >
-                      SAFe
+                      Staff Managment
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       as={Link}
-                      to="/capability-building-programs/dasa"
+                      to="/training-services/health-safety"
                     >
-                      DASA
+                      Health & Safety
                     </NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown
@@ -115,32 +115,47 @@ const TopMenubar = () => {
                   >
                     <NavDropdown.Item
                       as={Link}
-                      to="/capability-building-programs/ic-agile"
+                      to="/facility-management/event"
                     >
-                      IC Agile
+                      Event
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       as={Link}
-                      to="/capability-building-programs/safe"
+                      to="/facility-management/escort"
                     >
-                      SAFe
+                      Escort
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       as={Link}
-                      to="/capability-building-programs/dasa"
+                      to="/facility-management/safety"
                     >
-                      DASA
+                      Safety
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/facility-management/banking"
+                    >
+                      Banking
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/facility-management/logistics"
+                    >
+                      Logistics
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/facility-management/crime"
+                    >
+                      Crime
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/facility-management/value-added-services"
+                    >
+                      Value Added Services
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <NavDropdown.Item as={Link} to="/services/training">
-                    Training Services
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/services/facility-management"
-                  >
-                    Facility Management
-                  </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link as={Link} to="/gallery">
                   Gallery

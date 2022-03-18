@@ -1,4 +1,8 @@
 import React from "react";
+import { Container, Row, Col, Image} from "react-bootstrap";
+import Escort1 from "../../Images/escort-1.png";
+import Escort2 from "../../Images/escort-2.png";
+import Escort3 from "../../Images/escort-3.png";
 
 const Escort = () => {
   return (
@@ -9,7 +13,7 @@ const Escort = () => {
             <Col md={12}>
               <div className="pt-5 pb-5">
                 <h2 className="text-center text-secondary">
-                Facility Management Services - Escort Guarding
+                Facility Management Services
                 </h2>
               </div>
             </Col>

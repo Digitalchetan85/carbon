@@ -1,4 +1,11 @@
 import React from "react";
+import { Container, Row, Col, Image} from "react-bootstrap";
+import Site2 from "../../Images/site-2.png";
+import Site3 from "../../Images/site3.png";
+import Building from "../../Images/building-management-system.png";
+import RFID from "../../Images/rfid.png";
+import Garrett from "../../Images/garrett.png";
+import Walky from "../../Images/walky.png";
 
 const StaffManagement = () => {
   return (
@@ -9,7 +16,7 @@ const StaffManagement = () => {
             <Col md={12}>
               <div className="pt-5 pb-5">
                 <h2 className="text-center text-secondary">
-                  Our Services - Staff Management
+                  Our Services
                 </h2>
               </div>
             </Col>
@@ -169,7 +176,7 @@ const StaffManagement = () => {
             </Col>
             <Col md={4}>
               <div className="text-center">
-                <Image src={walky} alt="" className="img-fluid" />
+                <Image src={Walky} alt="" className="img-fluid" />
               </div>
             </Col>
           </Row>

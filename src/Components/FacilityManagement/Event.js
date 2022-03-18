@@ -1,4 +1,9 @@
 import React from "react";
+import { Container, Row, Col, Image} from "react-bootstrap";
+import Event1 from "../../Images/event-1.png";
+import Event2 from "../../Images/event-2.png";
+import Event3 from "../../Images/event-3.png";
+
 
 const Event = () => {
   return (
@@ -9,7 +14,7 @@ const Event = () => {
             <Col md={12}>
               <div className="pt-5 pb-5">
                 <h2 className="text-center text-secondary">
-                Facility Management Services - Event Security
+                Facility Management Services 
                 </h2>
               </div>
             </Col>

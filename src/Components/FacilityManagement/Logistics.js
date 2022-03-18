@@ -1,4 +1,8 @@
 import React from "react";
+import { Container, Row, Col, Image} from "react-bootstrap";
+import Log1 from "../../Images/log-1.png";
+import Log2 from "../../Images/log-2.png";
+import Log3 from "../../Images/log-3.png";
 
 const Logistics = () => {
   return (
@@ -9,7 +13,7 @@ const Logistics = () => {
             <Col md={12}>
               <div className="pt-5 pb-5">
                 <h2 className="text-center text-secondary">
-                Facility Management Services - Logistics Security
+                Facility Management Services
                 </h2>
               </div>
             </Col>
